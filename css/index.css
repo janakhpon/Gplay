@@ -1,0 +1,176 @@
+@font-face {
+  font-family: 'Nucleo';
+  src: url('../fonts/nucleo.eot');
+  src: url('../fonts/nucleo.eot') format('embedded-opentype'), url('../fonts/nucleo.woff2') format('woff2'), url('../fonts/nucleo.woff') format('woff'), url('../fonts/nucleo.ttf') format('truetype'), url('../fonts/nucleo.svg') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+ 
+
+ html,body {
+
+  background: #02073c;
+  color: #5b0ff5;
+
+ }
+
+ .container{
+  background: #02073c;
+  color: #5b0ff5;
+ }
+
+ .container-fluid{
+  background: #02073c;
+  color: #5b0ff5;
+ }
+
+ .card{
+  background: #02073c;
+  color: #5b0ff5;
+ }
+
+ .jumbotron{
+  background: #02073c;
+  color: #5b0ff5;
+ }
+
+ol {
+    counter-reset: list;
+    list-style: none;
+    overflow: hidden;
+    background: #02073c;
+    color: #5b0ff5;
+  }
+  
+  ol li {
+    counter-increment: list;
+    margin-bottom: 10px;
+    background: #02073c;
+    color:#007bff;
+    border:0px;
+    overflow: hidden;
+
+  }
+  
+  ol li::before {
+    content: counter(list);
+    background: #007bff;
+    font-family: Nucleo;
+    color: #f8f9fa;
+    font-size: 13px;
+    text-align: center;
+    border-radius: 50%;
+    width: 3.2em;
+    height: 3.2em;
+    line-height: 3.2em;
+    display: inline-block;
+    margin-right: 1em;
+  }
+
+.library{
+  background: url('../images/musiclibrary.png') no-repeat center center;
+}
+
+div.library:hover{
+  cursor: pointer;
+  background: url('../images/musiclibrary_o.png') no-repeat center center;
+}
+
+div.add {
+  width: 200px;
+  height: 40px;
+  overflow: hidden;
+  display: inline-table;
+  background: url('../images/importaudio.png') no-repeat center center;
+}
+div.add:hover {
+  width: 200px;
+  height: 40px;
+  overflow: hidden;
+  display: inline-table;
+  background: url('../images/importaudio_o.png') no-repeat center center;
+}
+
+div.add input {
+  display: block !important;
+  width: 200px !important;
+  height: 40px !important;
+  opacity: 0 !important;
+  overflow: hidden !important;
+  cursor: pointer;
+}
+div.add label {
+  cursor: pointer;
+}
+
+
+/*custom scrollbar for webkit browsers*/
+#playlist::-webkit-scrollbar-track
+{
+  -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+  border-radius: 15px;
+  background-color: #F5F5F5;
+}
+
+#playlist::-webkit-scrollbar
+{
+  width: 5px;
+  height: 5px;
+  border-radius: 30px;
+  background-color: #007bff;
+}
+
+#playlist::-webkit-scrollbar-thumb
+{
+  border-radius: 15px;
+  -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+  background-color: #BCBCBC;
+}
+
+.btn-circle.btn-xl {
+  width: 70px;
+  height: 70px;
+  padding: 10px 16px;
+  border-radius: 35px;
+  font-size: 24px;
+  line-height: 1.33;
+}
+
+.btn-circle {
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  padding: 6px 0;
+  font-size: 12px;
+  line-height: 1.428571429;
+  border-radius: 15px;
+}
+
+.current{
+  background: #343A40;
+  color:#00ff00;
+}
+
+aside ol#playlist li {
+  cursor: pointer;
+}
+aside ol#playlist li span.title {
+  cursor: pointer;
+}
+
+aside ol#playlist li span.remove:hover {
+  color: rgb(204, 0, 0);
+}
+
+.nav-item{
+  margin-left:6px;
+  padding: 2px;
+}
+
+
+.sound{
+  width: 150px;
+  margin-left: 10px;
+}
+
+
