@@ -6,3 +6,9 @@
   Gplay has some limitation on alert about the time of the songs, in most cases it won't allow you import songs more than 35 mins or longer.
 
 ### INSPIRATION COMING FROM WAYOU
+
+##animeresource//
+http://ww2.chia-anime.tv/most-popular-anime-series/
+
+##dramaresource//
+https://dramavery.com/
